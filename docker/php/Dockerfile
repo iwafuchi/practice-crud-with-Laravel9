@@ -6,3 +6,4 @@ RUN apt-get update && \
     curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+WORKDIR /var/www/html/src
